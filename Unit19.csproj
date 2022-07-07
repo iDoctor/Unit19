@@ -13,4 +13,9 @@
     <Folder Include="DAL\Repositories\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="6.0.6" />
+  </ItemGroup>
+
 </Project>
