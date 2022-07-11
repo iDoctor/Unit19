@@ -48,6 +48,11 @@ namespace Unit19.PLL.Views
                             Program.userDataUpdateView.Show(user);
                             break;
                         }
+                    case "3":
+                    {
+                        Program.friendAddingView.Show(user);
+                        break;
+                    }
 
                     case "4":
                         {
